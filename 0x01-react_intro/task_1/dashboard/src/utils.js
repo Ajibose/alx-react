@@ -11,4 +11,8 @@ const getFooterCopy = (isIndex) => {
     return 'ALX main dahsboard';
 }
 
-export { getFullYear, getFooterCopy };
+const getLatestNotification = () => {
+  return '<strong>Urgent requirement</strong> - complete by EOD';
+}
+
+export { getFullYear, getFooterCopy, getLatestNotification };
