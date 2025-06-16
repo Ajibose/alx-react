@@ -1,0 +1,19 @@
+#logo {
+  width: 200px;
+  height: 200px;
+  background: url('../../assets/holberton-logo.jpg');
+  background-size: 200px 200px;
+  float: left;
+  margin-left: 5rem;
+}
+
+header h1 {
+  float: right;
+  margin-right: 5rem;
+  line-height: 200px;
+}
+
+header {
+  overflow: hidden;
+  padding: 1rem 0;
+}
